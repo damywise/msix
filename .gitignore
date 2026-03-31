@@ -5,11 +5,18 @@
 .idea/
 build/
 
+# FVM - Flutter Version Management
+.fvm/
+.fvm/flutter_sdk
+
 # Remove the following pattern if you wish to check in your lock file
 pubspec.lock
 
 # Directory created by dartdoc
 doc/api/
 
-# Others
-.vscode/
+# VS Code - Keep settings.json for FVM configuration
+.vscode/*
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/extensions.json

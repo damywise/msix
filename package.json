@@ -1,9 +1,9 @@
 {
     "scripts": {
-        "test": "dart test test",
-        "format": "dart format .",
+        "test": "fvm dart test test",
+        "format": "fvm dart format .",
         "prepublish": "npm run format",
-        "publish-dry-run": "dart pub publish --dry-run",
-        "publish": "dart pub publish"
+        "publish-dry-run": "fvm dart pub publish --dry-run",
+        "publish": "fvm dart pub publish"
     }
 }
